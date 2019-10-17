@@ -9,7 +9,7 @@ public class MainIPPORTCHECK {
 
     public static void main(String[] args) {
         final MainIPPORTCHECK check = new MainIPPORTCHECK();
-        final boolean lpIsAlive = check.lpIsAlive("64.212.61.50", 10115, 100000);
+        final boolean lpIsAlive = check.lpIsAlive(ip, port, timeOut);
         System.err.println("is Alive : " + lpIsAlive);
     }
 
