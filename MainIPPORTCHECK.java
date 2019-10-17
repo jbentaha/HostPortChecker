@@ -1,14 +1,3 @@
-/*============================================================================
- *
- * Copyright (c) 2000-2019 Smart Trade Technologies. All Rights Reserved.
- *
- * This software is the proprietary information of Smart Trade Technologies
- * Use is subject to license terms. Duplication or distribution prohibited.
- *
- *============================================================================*/
-
-package com.smarttrade.cty.lptests;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
