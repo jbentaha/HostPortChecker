@@ -3,7 +3,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 
 /**
- * @author jbentahar
+ * @author jbentaha
  */
 public class MainIPPORTCHECK {
 
