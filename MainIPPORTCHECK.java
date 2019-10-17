@@ -9,11 +9,11 @@ public class MainIPPORTCHECK {
 
     public static void main(String[] args) {
         final MainIPPORTCHECK check = new MainIPPORTCHECK();
-        final boolean lpIsAlive = check.lpIsAlive(ip, port, timeOut);
-        System.err.println("is Alive : " + lpIsAlive);
+        final boolean isAlive = check.lpIsAlive(ip, port, timeOut);
+        System.err.println("is Alive : " + isAlive);
     }
 
-    private boolean lpIsAlive(String host, int port, int timeOut) {
+    private boolean isAlive(String host, int port, int timeOut) {
         System.err.println("Checking IP / Port: " + host + " / " + port);
         Socket socket = null;
         try {
